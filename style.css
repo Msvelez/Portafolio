@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo-sitio {
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Boldonse', sans-serif;
+}
+
+.letra-color {
+    color: #EFC820; 
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.marca-logo {
+    color: #EFC820;
+    font-size: 28px;
+    font-family: 'Boldonse', sans-serif;
+    font-weight: bold;
+}
+
+.menu-navegacion a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.boton-principal {
+    background: #000000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Boldonse', sans-serif;
+    cursor: pointer;
+}
+
+.boton-secundario {
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contenedor-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    min-height: 70vh;
+    gap: 60px; 
+}
+
+.bloque-texto {
+    flex: 1.2; 
+}
+
+.bloque-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.foto-perfil {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 30px; 
+    object-fit: cover;
+}
+
+.titulo-inicio {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.sub-titulo {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.resumen-corto {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.botones-inicio {
+    display: flex;
+    gap: 15px;
+}
+
+.seccion-oscura {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 100px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mi-rol {
+    flex: 1;
+    padding-right: 5%;
+}
+
+.mi-impacto {
+    flex: 1;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-tareas {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.lista-tareas li {
+    margin-bottom: 12px;
+    color: #ccc;
+}
+
+.cuadricula-numeros {
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.numero-individual h3 {
+    font-size: 52px;
+}
+
+.seccion-galeria {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.titulo-galeria {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.cuadricula-tarjetas {
+    display: flex;
+    gap: 30px;
+}
+
+.tarjeta {
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imagen-tarjeta {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.contenido-tarjeta {
+    padding: 25px;
+}
+
+.seccion-contacto {
+    background-color: #ffffff; 
+    padding: 100px 10%;
+    display: flex;
+    gap: 80px;
+    border-top: 1px solid #eee;
+}
+
+.info-contacto {
+    flex: 1;
+}
+
+.formulario {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario input, .formulario textarea {
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.pie-pagina {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 60px 10% 40px 10%;
+    text-align: center;
+}
+
+.footer-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 40px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-inferior p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #EFC820;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .barra-superior {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 5%;
+    }
+
+    .menu-navegacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contenedor-hero {
+        flex-direction: column-reverse;
+        padding: 40px 5%;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .titulo-inicio {
+        font-size: 40px;
+    }
+
+    .seccion-oscura, .seccion-contacto {
+        flex-direction: column;
+        padding: 60px 5%;
+        gap: 40px;
+    }
+
+    .mi-rol, .mi-impacto {
+        padding: 0;
+        width: 100%;
+    }
+
+    .cuadricula-numeros {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .cuadricula-tarjetas {
+        flex-direction: column;
+    }
+
+    .footer-superior {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
