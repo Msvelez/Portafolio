@@ -1,132 +1,61 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - María Sofía</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <title>Portafolio | María Sofía</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="fondo-sitio">
+<body>
 
-    <header class="barra-superior">
-        <div class="marca-logo">Portafolio</div>
-        <nav class="menu-navegacion">
+    <nav class="nav-bar">
+        <div class="logo">Portafolio<span>.</span></div>
+        <div class="nav-links">
             <a href="#">Sobre mí</a>
             <a href="#">Servicios</a>
             <a href="#">Portafolio</a>
             <a href="#">Blog</a>
-        </nav>
-        <button class="boton-principal">Hablemos</button>
-    </header>
+        </div>
+        <button class="btn-talk">Hablemos</button>
+    </nav>
 
-    <section class="contenedor-hero">
-        <div class="bloque-texto">
-            <p class="sub-titulo">DISEÑO GRÁFICO & 3D</p>
-            <h1 class="titulo-inicio">
-                ¡Hola, Hola! soy <br>
-                <span class="letra-color">María Sofía</span>
-            </h1>
-            <p class="resumen-corto">
-                Soy estudiante en formación de Creación Digital, apasionada por la ilustración 3D y el diseño de personajes que cuentan historias reales.
+    <div class="bg-text-container">
+        <span class="bg-char">SO</span>
+        <span class="bg-char">FÍA</span>
+    </div>
+
+    <main class="hero-section">
+        <div class="image-mask-container">
+            <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80" alt="3D Creation" class="hero-image">
+            <div class="floating-badge">
+                <p>3D<br>Design</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <h2 class="sub-label">Estudiante en formación</h2>
+            <h1 class="main-title">¡Hola, Hola!<br>soy <span>María Sofía</span></h1>
+            <p class="description">
+                Digital creator y Visual Storyteller enfocada en la intersección del <span>diseño 3D</span>, 
+                la experiencia de usuario (<span>UX/UI</span>) y el <span>coding</span>. 
             </p>
-            <div class="botones-inicio">
-                <button class="boton-principal">¡Contrátame!</button>
-                <button class="boton-secundario">Portafolio</button>
+            
+            <div class="cta-group">
+                <button class="btn-primary">¡Contrátame!</button>
+                <button class="btn-secondary">Portafolio</button>
             </div>
         </div>
-        <div class="bloque-imagen">
-            <img src="https://i.imgur.com/IiFlyJ7.png" alt="María Sofía" class="foto-perfil">
-        </div>
-    </section>
 
-    <section class="seccion-oscura">
-        <div class="mi-rol">
-            <h2 class="letra-color">Mi Rol</h2>
-            <p>Como creadora digital, lideré el desarrollo visual de la serie desde el concepto hasta el render final.</p>
-            <ul class="lista-tareas">
-                <li>✓ Investigación de Personajes</li>
-                <li>✓ Modelado 3D & Retopología</li>
-                <li>✓ Diseño de Criaturas</li>
-                <li>✓ Composición Digital</li>
-            </ul>
-        </div>
-        <div class="mi-impacto">
-            <h2 class="letra-color">Impacto Visual</h2>
-            <div class="cuadricula-numeros">
-                <div class="numero-individual">
-                    <h3 class="letra-color">100%</h3>
-                    <p>Modelado Original</p>
-                </div>
-                <div class="numero-individual">
-                    <h3 class="letra-color">4.9</h3>
-                    <p>Rating Visual</p>
-                </div>
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <div class="ticker__item">CREACIÓN DIGITAL // ILUSTRACIÓN 3D // DISEÑO DE PERSONAJES // ILUSTRACIÓN DIGITAL // CODING // UX & UI DESIGN // &nbsp;</div>
+                <div class="ticker__item">CREACIÓN DIGITAL // ILUSTRACIÓN 3D // DISEÑO DE PERSONAJES // ILUSTRACIÓN DIGITAL // CODING // UX & UI DESIGN // &nbsp;</div>
             </div>
         </div>
-    </section>
-
-    <section class="seccion-galeria">
-        <h2 class="titulo-galeria">Proceso <span class="letra-color">Creativo</span></h2>
-        <div class="cuadricula-tarjetas">
-            <div class="tarjeta">
-                <img src="https://i.imgur.com/zx6czdc.png" alt="Retopo" class="imagen-tarjeta">
-                <div class="contenido-tarjeta">
-                    <h4 class="letra-color">Fase 01</h4>
-                    <h3>Retopología y Estructura</h3>
-                    <p>Optimización técnica de la malla poligonal para asegurar deformaciones naturales durante la animación facial y corporal.</p>
-                </div>
-            </div>
-            <div class="tarjeta">
-                <img src="https://i.imgur.com/YqCBMkS.png" alt="Leon" class="imagen-tarjeta">
-                <div class="contenido-tarjeta">
-                    <h4 class="letra-color">Fase 02</h4>
-                    <h3>Criatura León: Metáfora Emocional</h3>
-                    <p>Desarrollo de una criatura fantástica diseñada para reaccionar al entorno; su pelaje y color evolucionan según el estado del protagonista.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="seccion-contacto">
-        <div class="info-contacto">
-            <h2>¿Listo para crear algo <span class="letra-color">extraordinario</span>?</h2>
-            <p>Bogotá, Colombia</p>
-            <p>contacto@msofia.com</p>
-        </div>
-        <form class="formulario">
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Tu mensaje"></textarea>
-            <button type="submit" class="boton-principal">Enviar Mensaje</button>
-        </form>
-    </section>
-
-    <footer class="pie-pagina">
-        <div class="footer-superior">
-            <nav class="footer-nav">
-                <a href="#">Sobre mí</a>
-                <a href="#">Servicios</a>
-            </nav>
-            <div class="marca-logo">
-                <span class="letra-color">Marso</span>Studio
-            </div>
-            <nav class="footer-nav">
-                <a href="#">Portafolio</a>
-                <a href="#">Blog</a>
-            </nav>
-        </div>
-        <div class="footer-inferior">
-            <p>Sígueme en mis redes sociales:</p>
-            <div class="redes-sociales">
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-                <a href="#">Behance</a>
-                <a href="#">Tiktok</a>
-            </div>
-        </div>
-    </footer>
+    </main>
 
 </body>
 </html>
