@@ -1,6 +1,6 @@
-/* --- ESTILO BLOG EL CORAZÓN DEL ASESINO --- */
+
 :root {
-    --accent-horror: #b30000; /* Rojo sangre profundo */
+    --accent-horror: #b30000; 
     --bg-deep-black: #050505;
 }
 
@@ -8,6 +8,14 @@ body {
     background-color: var(--bg-deep-black);
     color: #cccccc;
     font-family: 'Space Grotesk', sans-serif;
+    margin: 0; 
+}
+
+.nav-bar {
+    background: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-blog {
@@ -37,10 +45,12 @@ h2, h3 {
 
 .process-img {
     position: relative;
-    box-shadow: 0 0 30px rgba(179, 0, 0, 0.2); /* Brillo rojo sutil */
+    box-shadow: 0 0 30px rgba(179, 0, 0, 0.2);
+    margin: 20px 0; 
 }
 
 .process-img img {
     width: 100%;
+    display: block; 
     border-radius: 2px;
 }
