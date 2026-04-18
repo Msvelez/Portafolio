@@ -42,7 +42,7 @@ body { background: var(--bg-dark); color: var(--text-main); margin: 0; font-fami
 .main-title { font-size: 7vw; line-height: 1; margin: 20px 0; }
 .main-title span { color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,0.2); }
 .cta-group { display: flex; gap: 15px; margin-top: 30px; }
-.btn-primary { background: var(--accent-yellow); border: none; padding: 15px 30px; font-weight: 700; cursor: pointer; }
+.btn-primary {background-color: #f7e300; color: black; padding: 15px 30px; font-weight: bold; display: inline-block; text-decoration: none;}
 .btn-secondary { background: transparent; border: 1px solid #333; color: white; padding: 15px 30px; cursor: pointer; }
 
 /* --- CHALLENGE & SOLUTION  --- */
