@@ -136,3 +136,68 @@ h2, h3 {
     padding-top: 30px;
     border-top: 1px solid #222;
 }
+
+/* --- SISTEMA RESPONSIVE --- */
+@media (max-width: 1024px) {
+    .section-container, .container-blog {
+        padding: 0 5%;
+    }
+    
+    h1 { font-size: 3rem; } 
+}
+
+
+@media (max-width: 768px) {
+    
+    .nav-bar {
+        padding: 15px 5%;
+        flex-direction: column; 
+        text-align: center;
+        gap: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .project-hero {
+        height: auto;
+        padding: 100px 5% 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.2rem !important; 
+        line-height: 1.2;
+    }
+
+
+    .dual-column, 
+    .process-gallery, 
+    .role-impact-grid,
+    .story-elements {
+        display: grid;
+        grid-template-columns: 1fr !important; 
+        gap: 30px;
+    }
+
+
+    .cta-group, .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    
+    .process-img img, .hero-mask-container img {
+        height: 300px; 
+        object-fit: cover;
+    }
+}
